@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/graphql_demo?useSSL=false&serverTimezone=UTC
     username: root
-    password: Qwerty_123
+    password: yourpassword
   jpa:
     hibernate:
       ddl-auto: update
