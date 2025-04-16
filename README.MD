@@ -102,7 +102,74 @@ Content-Type: application/json
 }
 ```
 
+# How to test in GraphiQL Playground
 
+## 1. Open your browser and copy the link below:
+``` 
+http://localhost:8080/graphiql
+```
+
+## 2. getAllBooks
+### Copy and paste the query below:
+``` 
+query {
+  getAllBooks {
+    id
+    title
+    author
+  }
+}
+```
+
+## 3. getBookById
+### Copy and paste the query below:
+``` 
+query {
+  getBookById(id: 1) {
+    id
+    title
+    author
+  }
+}
+```
+
+## 4. createBook
+### Copy and paste the query below:
+``` 
+mutation {
+  createBook(input: {
+    title: "Spring Security"
+    author: "Muhammad Irfan"
+  }) {
+    id
+    title
+    author
+  }
+}
+```
+
+## 5. updateBook
+### Copy and paste the query below:
+``` 
+mutation {
+  updateBook(id: 7, input: {
+    title: "Spring Boot Hibernate"
+    author: "Muhammad Irfan"
+  }) {
+    id
+    title
+    author
+  }
+}
+```
+
+## 6. deleteBook
+### Copy and paste the query below:
+``` 
+mutation {
+  deleteBook(id: 7)
+}
+```
 
 
 
