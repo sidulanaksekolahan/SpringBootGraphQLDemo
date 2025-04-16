@@ -102,6 +102,8 @@ Content-Type: application/json
 }
 ```
 
+***
+
 # How to test in GraphiQL Playground
 
 ## 1. Open your browser and copy the link below:
