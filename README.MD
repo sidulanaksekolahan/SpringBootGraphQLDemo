@@ -173,10 +173,19 @@ mutation {
 }
 ```
 
+***
 
+# How to run project using maven tools:
 
+## 1. Run mvn command:
+```
+mvn -DDB_PWD=Qwerty_123 clean install
+```
 
-
+## 2. Run java command:
+```
+java -DDB_PWD=yourPassword -jar .\target\SpringBootGraphQLDemo-0.0.1-SNAPSHOT.jar
+```
 
 
 
